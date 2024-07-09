@@ -1,5 +1,5 @@
 # ScriptSynthGUI
- A Web-based GUI for writing ScriptSynth configuration files.
+ A Web-based GUI for writing [ScriptSynth](https://github.com/spanio/scriptsynth) configuration files.
 
  ## Why? Why would you do this?
  ScriptSynth was designed as an easy-to-use tool for data acquisition from various hardware devices. Requiring only a YAML file, ScriptSynth vastly improves on existing solutions by allowing anyone to record data from many hardware devices and save that data to many different platforms and file types.
