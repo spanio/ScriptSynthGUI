@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel,
+  .right-panel {
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .left-panel {
+    flex: 1;
+    background-color: #ffffff;
+    border-right: 1px solid #ccc;
+  }
+  
+  .right-panel {
+    flex: 1;
+    background-color: #fafafa;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  button {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  pre {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .hardware-section,
+  .commands-section {
+    margin-top: 20px;
+  }
+  
+  .hardware-section button,
+  .commands-section button {
+    width: auto;
+    margin-top: 10px;
+  }
+  
+  .hardware-item,
+  .command-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+  }
+  
+  .hardware-item h3,
+  .command-item h3 {
+    margin-top: 0;
+  }
+  
+  .hardware-item label,
+  .command-item label {
+    font-weight: normal;
+  }
+  
+  .hardware-item input,
+  .command-item input {
+    margin-bottom: 5px;
+  }
+  
+  .hardware-item button {
+    margin-top: 10px;
+  }
+
+  .hardware-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hardware-item-header h3 {
+    margin: 0;
+  }
+  

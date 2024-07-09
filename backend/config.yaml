@@ -1,0 +1,26 @@
+commands:
+- baud: ''
+  command: ''
+  port: ''
+  time: ''
+hardware:
+- acquisition_type: FINITE
+  buffer_size: '20000'
+  cage_position: ''
+  channels:
+    Channel 0: Sp,etjomg
+    Channel 1: sp,etjomg else
+    Channel 2: something
+    Channel 3: ''
+    Channel 4: ''
+  device: ''
+  hw_type: ''
+  interface: ''
+  name: NIDAQ
+  sampling_freq: '5000'
+  terminal_config: RSE
+metadata: ea;lkjalkjfsadf
+output:
+  CSV: {}
+sampling_frequency: 1Hz
+test_name: HTOE Test
