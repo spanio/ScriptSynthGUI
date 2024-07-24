@@ -170,7 +170,7 @@ function App() {
   return (
     <div className="container">
       <div className="left-panel">
-        <h1>ScriptSynth Configuration</h1>
+        <h1>ScriptSynth Configuration (is updated)</h1>
         <div>
           <label>Test Name:</label>
           <input type="text" value={testName} onChange={e => setTestName(e.target.value)} /><br />
