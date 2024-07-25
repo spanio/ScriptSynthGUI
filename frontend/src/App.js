@@ -125,9 +125,9 @@ function App() {
     };
 
     try {
-      await axios.post('http://localhost:5000/generate-config', config);
+      await axios.post('http://172.18.126.227/generate-config', config);
       const link = document.createElement('a');
-      link.href = 'http://localhost:5000/download-config';
+      link.href = 'http://172.18.126.227/download-config';
       link.setAttribute('download', 'config.yaml');
       document.body.appendChild(link);
       link.click();
