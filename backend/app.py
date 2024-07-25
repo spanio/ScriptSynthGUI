@@ -4,7 +4,7 @@ import yaml
 import os
 
 app = Flask(__name__)
-CORS(app)
+CORS(app)  # Enable CORS for all routes
 
 @app.route('/generate-config', methods=['POST'])
 def generate_config():
@@ -19,4 +19,4 @@ def download_config():
     return send_file(path, as_attachment=True)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0', port=3000)
