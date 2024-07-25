@@ -125,9 +125,9 @@ function App() {
     };
 
     try {
-      await axios.post('http://172.18.126.227/generate-config', config);
+      await axios.post('/api/generate-config', config);
       const link = document.createElement('a');
-      link.href = 'http://172.18.126.227/download-config';
+      link.href = '/api/download-config';
       link.setAttribute('download', 'config.yaml');
       document.body.appendChild(link);
       link.click();
@@ -170,8 +170,9 @@ function App() {
   return (
     <div className="container">
       <div className="left-panel">
-        <h1>ScriptSynth Configuration (is updated)</h1>
+        <h1>ScriptSynth Configuration</h1>
         <div>
+          <h2>Header</h2>
           <label>Test Name:</label>
           <input type="text" value={testName} onChange={e => setTestName(e.target.value)} /><br />
           <label>Sampling Frequency (Hz):</label>
